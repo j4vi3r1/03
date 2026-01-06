@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Persona Favorita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="welcome-screen">
+        <div class="welcome-card">
+            <h1>Hola, mon amour... ❤️</h1>
+            <p>Tengo algo preparado para ti. ¿Estás listo?</p>
+            <button id="start-btn">Abrir regalo 🎁</button>
+        </div>
+    </div>
+
+    <div class="card" id="main-card" style="display: none;">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/150" alt="Nosotros" id="photo">
+        </div>
+        
+        <h1 class="title">¿Me das un minuto?</h1>
+        <p class="text" id="main-text">Tengo algo importante que preguntarte...</p>
+        
+        <div class="buttons">
+            <button id="btn-yes">¡Sí, obvio! 😍</button>
+            <button id="btn-no">No 😢</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+
+   
+    <audio id="music" src="Contigo.mp3" autoplay loop></audio>
+
+</body>
+</html>
